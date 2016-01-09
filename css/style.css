@@ -86,10 +86,10 @@ footer {
 
 @media screen and (max-width: 500px) {
   #primary-header {
-    padding: 40px;
+    padding: 30px;
   }
   .logo {
-    padding-bottom: 65%;
+    padding-bottom: 70%;
   }
 }
 
