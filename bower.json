@@ -1,0 +1,19 @@
+{
+  "name": "allsidesmobilebar",
+  "homepage": "http://allsidesmobilebar.com",
+  "authors": [
+    "Cody Evans <codyevansdesign@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
