@@ -1,0 +1,156 @@
+$ROOT_PATH        : "/";
+$ASSETS_PATH      : "/assets";
+$IMAGES_PATH      : "#{$ASSETS_PATH}/img";
+$FONTS_PATH       : "#{$ASSETS_PATH}/fonts";
+$ICON_FONT_PATH   : "#{$FONTS_PATH}/icons/";
+
+
+//------------------------------------------------------------------------------
+//
+//    Color Scheme
+//
+//------------------------------------------------------------------------------
+
+$white:                           #fff;
+$black:                           #000;
+
+//$extralightgray:                  #f5f5f5;
+$lightgray:                       #e0e0e0;
+//$mediumlightgray:                 #afc0c6;
+//$gray:                            #738389;
+//$mediumdarkgray:                  #5a676c;
+$darkgray:                        #333333;
+//$extradarkgray:                   #303234;
+
+// $coolgray:                        #aaa;
+
+$color1:                          #0055b8;  // Blue
+$color2:                          #65cbc9;  // Light Blue
+$color3:                          #002e6d;  // Dark Blue
+$color4:                          #cf0a2c;  // Red
+
+$background-color:                $white;
+
+$error_color:                     $color4;
+
+
+//------------------------------------------------------------------------------
+//
+//    Grid/Layout
+//
+//------------------------------------------------------------------------------
+
+$grid-page-width:                 1536px; // 960px default
+$grid-columns:                    32; // 24 default
+$grid-margin:                     12px;
+$baseline:                        1.5rem;
+
+$spacer:                          $baseline;
+
+$grid-list-item-width:            8;
+
+
+//------------------------------------------------------------------------------
+//
+//    CSS3
+//
+//------------------------------------------------------------------------------
+
+// box shadow
+$default-box-shadow-color:        rgba($black, 0.1);
+$default-box-shadow-h-offset:     0;
+$default-box-shadow-v-offset:     2px;
+$default-box-shadow-blur:         3px;
+
+$inset-box-shadow:                0 2px 3px rgba($black, 0.1) inset;
+
+$default-text-shadow-color:       rgba($black, 0.2);
+$default-text-shadow-h-offset:    0;
+$default-text-shadow-v-offset:    2px;
+$default-text-shadow-blur:        0;
+
+$default-transition-duration:     0.3s;
+
+$border-width:                    0;
+
+$border-radius:                   0;
+
+
+//------------------------------------------------------------------------------
+//
+//    Type
+//
+//------------------------------------------------------------------------------
+
+$base-font-size:                  16px;// IMPORTANT. Change, but don't delete this. Compass sets this as 16px.
+$font-family-sans-serif:          'PT Sans',Helvetica,Arial,sans-serif;
+
+$font-color:                      $color3;
+
+$link-color:                      $color4;
+$link-hover-color:                darken($color4, 10%);
+$link-hover-decoration:           none;
+$link-active-color:               $link-color;
+$link-visited-color:              $link-color;
+
+$selected-background-color:       $color1;
+
+$font-size-h1:                    2.2rem;
+$font-size-h3:                    1.5rem;
+
+$headings-line-height:            1.15;
+
+// $headings-margin-bottom:          $spacer;
+
+//------------------------------------------------------------------------------
+//
+//    Forms
+//
+//------------------------------------------------------------------------------
+
+// $icon-grid:                       40px;
+
+// $form-padding-left-right:         $baseline / 4;
+// $form-padding-top-bottom:         $baseline / 4;
+// $form-radius:                     4px;
+
+// $input-border-width:              1px;
+// $input-border-color:              $mediumlightgray;
+// $input-background-color:          none;
+// $input-height:                    $baseline + 4;
+// $input-box-shadow:                0 2px 0 $mediumlightgray inset;
+
+// $label-color:                     $gray;
+
+// $placeholder-color:               $gray;
+
+// $focus-color:                     $color2;
+// $focus-box-shadow:                none;
+
+
+//------------------------------------------------------------------------------
+//
+//    Buttons
+//
+//------------------------------------------------------------------------------
+
+$btn-primary-bg: $color4;
+$btn-padding-y:  $baseline / 2;
+
+//------------------------------------------------------------------------------
+//
+//    Colorbox
+//
+//------------------------------------------------------------------------------
+
+// $COLORBOX_IMAGES_PATH:            $IMAGES_PATH;
+// $colorbox-overlay:                rgba($gray, 0.9);
+
+
+//------------------------------------------------------------------------------
+//
+//    jQuery UI
+//
+//------------------------------------------------------------------------------
+
+// $ui-font-color:                   $font-color;

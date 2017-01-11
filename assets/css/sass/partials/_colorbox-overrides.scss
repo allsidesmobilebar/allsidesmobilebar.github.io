@@ -1,0 +1,195 @@
+//------------------------------------------------------------------------------
+//
+//    Colorbox style overrides
+//
+//------------------------------------------------------------------------------
+#cboxOverlay {
+  background: rgba($extradarkgray, 0.96);
+}//#cboxOverlay
+#colorbox {
+  overflow: visible;
+  position: fixed !important;
+  top: 60px !important;
+  #cboxCurrent {
+    bottom: auto;
+    color: $white;
+    left: 0;
+    top: -1 * $baseline;
+  }
+  #cboxWrapper {
+    overflow: visible;
+    #cboxContent {
+      overflow: visible;
+      .boxCaption{
+        display: none;
+      }//.boxCaption
+      button {
+        background: none;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        @include box-shadow(none);
+        @include transition(none);
+      }//button
+      #cboxLoadedContent {
+        margin-bottom: $baseline + 4px;
+      }
+      #cboxTitle {
+        color: $darkgray;
+        bottom: 4px;
+        background-color: $white;
+        padding-top: $baseline / 6;
+        line-height: 18px;
+      }//coxTitle
+      #cboxPrevious {
+        position: absolute;
+        bottom: auto;
+        border-radius: 50%;
+        z-index: 100;
+        height: 100px;
+        top: 50%;
+        width: 100px;
+        left: 0%;
+        right: auto;
+        transform: translate(-150%, -50%);
+        @include media(null, 26) {
+          position: absolute;
+          bottom: 44%;
+          &:before {
+            font-size: $baseline * 2 !important;
+          }
+          &:hover {
+            background-color: transparent !important;
+            color: $color2 !important;
+          }
+        }
+        &:before {
+          @include icon-font-pseudo-element();
+          content: "\f104";
+          font-size: $baseline * 3;
+        }
+        &:hover {
+          background-color: $white;
+          color: $color2;
+        }
+      }//#cboxPrevious
+      #cboxNext {
+        position: absolute;
+        bottom: auto;
+        border-radius: 50%;
+        z-index: 100;
+        height: 100px;
+        top: 50%;
+        width: 100px;
+        left: auto;
+        right: 0%;
+        transform: translate(150%, -50%);
+        @include media(null, 26) {
+          position: absolute;
+          bottom: 44%;
+          &:before {
+            font-size: $baseline * 2 !important;
+          }
+          &:hover {
+            background-color: transparent !important;
+            color: $color2 !important;
+          }
+        }
+        &:before {
+          @include icon-font-pseudo-element();
+          content: "\f105";
+          font-size: $baseline * 3;
+        }
+        &:hover {
+          background-color: $white;
+          color: $color2;
+        }
+      }//#cboxNext
+      #cboxClose {
+        top: -$baseline * 2;
+        right: -$baseline / 3;
+        color: $white;
+        height: $baseline * 2;
+        width: $baseline * 2;
+        @include media(null, 26) {
+          height: $baseline;
+          width: $baseline;
+          top: -$baseline;
+          right: -5px;
+        }
+        &:before {
+          @include icon-font-pseudo-element();
+          content: "\e64a";
+          font-size: $baseline * 2;
+          @include media(null, 26) {
+            font-size: $baseline;
+          }
+        }
+      }//#cboxClose
+    }//#cboxContent
+  }//#cboxWrapper
+}//#colorBox
+
+//------------------------------------------------------------------------------
+//
+//    Fancybox style overrides
+//
+//------------------------------------------------------------------------------
+.fancybox-skin {
+  padding: $baseline;
+  background-color: $white;
+  border-radius: 0 !important;
+  .fancybox-iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+.fancybox-overlay {
+  background: rgba($extradarkgray, 0.96) !important;
+}
+.fancybox-tagtray .fancybox-nav span {
+  width: 48px;
+  height: 48px;
+  margin-top: -24px;
+  opacity: 1 !important;
+}
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+  background: none;
+  background-image: none !important;
+}
+.fancybox-prev {
+  span {
+    left: -4px !important;
+    &:before {
+      @include icon-font-pseudo-element();
+      content: "\f104";
+      font-size: $baseline * 2;
+      color: $white;
+    }
+  }
+}
+.fancybox-next {
+  span {
+    right: -4px !important;
+    &:before {
+      @include icon-font-pseudo-element();
+      content: "\f105";
+      font-size: $baseline * 2;
+      color: $white;
+    }
+  }
+}
+.fancybox-close {
+  top: -$baseline * 2 !important;
+  right: -$baseline / 3 !important;
+  width: auto !important;
+  height: auto !important;
+  &:before {
+    @include icon-font-pseudo-element();
+    content: "\e64a";
+    font-size: $baseline * 2;
+    @include media(null, 26) {
+      font-size: $baseline;
+    }
+  }
+}

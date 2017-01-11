@@ -1,1 +1,55 @@
+# Dependency folders
+bower_components/
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# SASS temp files
+.sass-cache
+
+# Operating system files
+# OSX
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.DocumentRevisions-V100
 .DS_Store
+.DS_Store?
+.fseventsd
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+Network Trash Folder
+Temporary Items
+
+# Windows
+$RECYCLE.BIN/
+*.cab
+*.lnk
+*.msi
+*.msm
+*.msp
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+
+# Videos
+*.mp4
+*.ogv
+*.webm
+
+# Compiled assets
+public/assets/css/*.css
+public/assets/css/*.css.map
+public/assets/js/build/
+public/assets/js/vendor/
+public/assets/fonts/icons/
+
+.sass-cache
+*.scssc
+*.css.map
