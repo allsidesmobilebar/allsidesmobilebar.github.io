@@ -1,0 +1,46 @@
+.visuallyhidden, .screen-reader-text {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: purple;
+  color: #fff;
+  overflow-x: hidden;
+  backface-visibility: hidden; }
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Slab', sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 3px; }
+
+h2 {
+  margin-bottom: 1.5rem; }
+
+p,
+ul,
+blockquote {
+  margin-bottom: 20px; }
+
+::selection {
+  background-color: #65cbc9;
+  color: #fff;
+  text-shadow: none; }
+
+::-moz-selection {
+  background-color: #65cbc9;
+  color: #fff;
+  text-shadow: none; }

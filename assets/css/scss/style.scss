@@ -1,0 +1,31 @@
+//------------------------------------------------------------------------------
+//
+//   Bootstrap
+//
+//------------------------------------------------------------------------------
+
+// <bower_components> is a string that gets replaced through the gulpfile
+// https://github.com/sass/sass/issues/451
+
+//@import "<bower_components>/bootstrap/scss/variables";
+//@import "<bower_components>/bootstrap/scss/mixins";
+
+// Reset and dependencies
+//@import "<bower_components>/bootstrap/scss/normalize";
+//@import "<bower_components>/bootstrap/scss/print";
+
+//------------------------------------------------------------------------------
+//
+//   Site Styles
+//
+//------------------------------------------------------------------------------
+
+// base variables
+@import "partials/base";
+//@import "partials/fonts";
+
+// vendor styles
+//@import "partials/slick";
+
+// site
+@import "partials/page";

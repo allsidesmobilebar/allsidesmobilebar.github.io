@@ -1,0 +1,33 @@
+$ROOT_PATH        : "/";
+$ASSETS_PATH      : "/assets";
+$IMAGES_PATH      : "#{$ASSETS_PATH}/img";
+$FONTS_PATH       : "#{$ASSETS_PATH}/fonts";
+
+//------------------------------------------------------------------------------
+//
+//    Color Scheme
+//
+//------------------------------------------------------------------------------
+
+$white:                #fff;
+$black:                #000;
+
+$extralightgray:       #f5f5f5;
+$lightgray:            #e0e0e0;
+$gray:                 #738389;
+$darkgray:             #333333;
+$extradarkgray:        #303234;
+
+$color1:               #0055b8;  // Blue
+$color2:               #65cbc9;  // Light Blue
+$color3:               #002e6d;  // Dark Blue
+
+$background-color:     purple;
+
+//------------------------------------------------------------------------------
+//
+//    Grid + Units
+//
+//------------------------------------------------------------------------------
+
+$baseline:             20px;
