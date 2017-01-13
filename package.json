@@ -15,6 +15,9 @@
   "dependencies": {
     "browser-sync": "^2.18.6",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-slash": "^1.1.3"
   }
 }
