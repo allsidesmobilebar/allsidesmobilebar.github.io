@@ -11,7 +11,9 @@
 // Core variables and mixins
 @import "<bower_components>/bootstrap/scss/variables";
 @import "<bower_components>/bootstrap/scss/mixins";
-@import "<bower_components>/bootstrap/scss/custom";
+
+// bootstrap overrides
+@import "partials/bs-vars";
 
 // Reset and dependencies
 @import "<bower_components>/bootstrap/scss/normalize";

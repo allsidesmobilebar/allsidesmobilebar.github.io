@@ -6721,54 +6721,31 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   .hidden-print {
     display: none !important; } }
 
-.visuallyhidden {
-  position: absolute;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  width: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0; }
-
 * {
   box-sizing: border-box; }
 
 body {
-  background-color: purple;
+  background-color: #492a5c;
   color: #fff;
   overflow-x: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-transform: uppercase;
-  font-weight: 900;
-  letter-spacing: 3px; }
-
-h2 {
-  margin-bottom: 1.5rem; }
-
-p,
-ul,
-blockquote {
-  margin-bottom: 20px; }
+a {
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s; }
 
 ::-moz-selection {
-  background-color: #65cbc9;
+  background-color: #57326e;
   color: #fff;
   text-shadow: none; }
 
 ::selection {
-  background-color: #65cbc9;
+  background-color: #57326e;
   color: #fff;
   text-shadow: none; }
 
 ::-moz-selection {
-  background-color: #65cbc9;
+  background-color: #57326e;
   color: #fff;
   text-shadow: none; }

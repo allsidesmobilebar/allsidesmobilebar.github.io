@@ -12,18 +12,18 @@ $FONTS_PATH       : "#{$ASSETS_PATH}/fonts";
 $white:                #fff;
 $black:                #000;
 
-$extralightgray:       #f5f5f5;
-$lightgray:            #e0e0e0;
-$gray:                 #738389;
-$darkgray:             #333333;
-$extradarkgray:        #303234;
+$extralightgray:       $gray-lightest;
+$lightgray:            $gray-lighter;
+$gray:                 $gray-light;
+$darkgray:             $gray;
+$extradarkgray:        $gray-dark;
 
-$color1:               #0055b8;  // purple
-$color2:               #65cbc9;  // light purple
-$color3:               #002e6d;  // Dark purple
+$color1:               $purple;
+$color2:               lighten($purple, 5%);  // light purple
+$color3:               darken($purple, 8%);  // Dark purple
 $color4:               #002e6d;  // accent
 
-$background-color:     purple;
+$background-color:     $color1;
 
 //------------------------------------------------------------------------------
 //
@@ -31,4 +31,5 @@ $background-color:     purple;
 //
 //------------------------------------------------------------------------------
 
-$baseline:             20px;
+$baseline:                    20px;
+$default-transition-duration: 0.25s;
