@@ -6721,7 +6721,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   .hidden-print {
     display: none !important; } }
 
-.visuallyhidden, .screen-reader-text {
+.visuallyhidden {
   position: absolute;
   overflow: hidden;
   clip: rect(0 0 0 0);
