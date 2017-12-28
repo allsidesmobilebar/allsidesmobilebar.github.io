@@ -7,6 +7,12 @@ body {
   background: #eeeeee;
 }
 
+.info-banner {
+  background: #fff;
+  text-align: center;
+  margin-bottom: 0;
+}
+
 #primary-header {
   background: #492a5c;
  /* background: #191919;*/
@@ -36,6 +42,26 @@ body {
   max-width: 100%;
   height: auto;
   padding-bottom: 40%;
+}
+
+.btn-booking {
+  background: #492a5c;
+  border-color: #fff;
+  color: #fff;
+  margin-top: 10px;
+  padding: 8px 32px;
+}
+.btn-booking:hover,
+.btn-booking:focus {
+  background: #492a5c;
+  color: #fff;
+}
+
+.intro {
+  text-align: center;
+  padding: 0 20px;
+  max-width: 640px;
+  margin: 0 auto;
 }
 
 .contact {
@@ -86,23 +112,9 @@ footer {
 
 @media screen and (max-width: 500px) {
   #primary-header {
-    padding: 30px;
+    padding: 45px 30px 30px;
   }
   .logo {
     padding-bottom: 70%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
